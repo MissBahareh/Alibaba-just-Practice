@@ -1,0 +1,553 @@
+@media screen and (min-width: 992px) {
+    body {
+        // height: 100%;
+
+        .contaner {
+            #section1 {
+                margin-top: 10vh;
+                height: 70vh;
+            }
+
+            #section2 {
+                height: 130vh;
+                justify-content: flex-start;
+                padding: 10px;
+                // margin-bottom: 40px ;
+
+                #mainDS2 {
+                    h1 {
+                        justify-content: flex-start;
+                    }
+
+                    #tDMainDS2 {
+                        #bordertDMainDS2 {
+                            padding: 0;
+
+                            #mmtDMainDS2 {
+                                div {
+                                    height: 100%;
+                                    padding: 5px;
+
+                                    .interDiv {
+                                        flex-direction: row;
+                                        border-left: 2px solid rgba(0, 0, 0, 0.143);
+
+                                    }
+                                }
+
+                            }
+
+                        }
+
+
+
+                    }
+
+
+                }
+
+            }
+
+            #section3 {
+                padding-top: 20px;
+
+                #mainDS3 {
+                    flex-direction: row;
+                    // background-color: rgb(0, 247, 255);
+
+                    #tmainDS3 {
+                        height: 100%;
+                        padding-top: 20px;
+
+                        img {
+                            height: 60%;
+                            // width: 45%;
+                        }
+                    }
+
+                    #mmainDS3 {
+                        height: 100%;
+
+                        h2 {
+                            height: 15%;
+                            font-size: 25px;
+
+                        }
+
+                        p {
+                            height: 15%;
+                            font-size: 14px;
+
+                        }
+
+                        .intermmainDS3 {
+                            height: 15%;
+
+                            span {
+                                font-size: 16px;
+
+                            }
+
+                        }
+
+                        .interSpan {
+                            height: 15%;
+                            font-size: 13px;
+                        }
+                    }
+
+                    #bmainDS3 {
+                        display: flex;
+                        height: 100%;
+                    }
+                }
+
+            }
+
+            #section7 {
+                height: 90vh;
+
+                #mainnnS7 {
+                    height: 85%;
+
+                    #interS7 {
+                        // background-color: rgb(56, 165, 42);
+
+                        #tinterS7 {
+                            .interrrrTS7 {
+                                flex-direction: row;
+
+                                #imgDiv {
+                                    height: 100%;
+                                    // background-color: blueviolet;
+
+                                }
+
+                                #cart7 {
+                                    height: 80%;
+                                    // background-color: burlywood;
+                                    justify-content: flex-start;
+                                    padding: 0 10px;
+
+                                    h3 {
+                                        font-size: 18px;
+                                        font-weight: 600;
+                                        justify-content: flex-start;
+                                    }
+
+                                    p {
+                                        font-size: 15px;
+                                        text-align: justify;
+
+                                    }
+
+                                }
+
+                            }
+
+
+                        }
+
+                        #minterS7 {
+                            #minterS7L {
+                                #imgDminterS7 {
+                                    justify-content: flex-end;
+                                    // background-color: chocolate;
+
+                                }
+
+                                span {
+                                    justify-content: flex-end;
+                                }
+
+                                #imgsS7 {
+
+                                    // background-color: rgb(206, 69, 39);
+                                    .interImgS7 {
+                                        height: 60%;
+
+
+                                    }
+                                }
+
+                            }
+                        }
+
+                        #binterS7 {
+                            #lDivFooter {
+                                justify-content: flex-end;
+                            }
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        // height: 100%;
+
+        .contaner {
+            #section1 {
+                margin-top: 10vh;
+                height: 80vh;
+
+            }
+
+            #section2 {
+                height: auto;
+                margin-bottom: 40px;
+
+                #mainDS2 {
+                    h1 {
+                        justify-content: center;
+                        padding: 20px 0 0;
+                    }
+
+                    #tDMainDS2 {
+                        #bordertDMainDS2 {
+                            padding: 0;
+
+                            #mmtDMainDS2 {
+                                div {
+                                    height: 50%;
+                                    padding: 5px;
+
+                                    .interDiv {
+                                        flex-direction: column;
+                                        border-left: none;
+
+                                    }
+                                }
+
+                            }
+
+                        }
+
+
+                    }
+
+
+                }
+
+            }
+
+            #section3 {
+
+
+                #mainDS3 {
+                    flex-direction: column;
+                    // background-color: rgb(255, 0, 89);
+
+                    #tmainDS3 {
+                        height: 50%;
+                        padding-top: 5px;
+
+                        img {
+                            height: 80%;
+                            // width: 30%;
+                            padding: 0;
+                        }
+                    }
+
+                    #mmainDS3 {
+                        height: 50%;
+
+                        h2 {
+                            height: 20%;
+                            font-size: 30px;
+
+                        }
+
+                        p {
+                            height: 20%;
+                            font-size: 20px;
+
+                        }
+
+                        .intermmainDS3 {
+                            height: 20%;
+
+                            span {
+                                font-size: 18px;
+
+                            }
+
+                        }
+
+                        .interSpan {
+                            height: 20%;
+                            font-size: 16px;
+                        }
+                    }
+
+                    // #bmainDS3 {
+                    //     // display: none;
+                    // }
+                }
+
+            }
+
+            #section7 {
+                height: 100vh;
+
+                #mainnnS7 {
+                    height: 95%;
+
+                    #interS7 {
+                        // background-color: rgb(56, 165, 42);
+
+                        #tinterS7 {
+                            .interrrrTS7 {
+                                flex-direction: column;
+
+                                #imgDiv {
+                                    height: 60%;
+                                    // background-color: blueviolet;
+
+                                }
+
+                                #cart7 {
+                                    height: 40%;
+                                    // background-color: burlywood;
+                                    justify-content: center;
+                                    padding: 0 10px;
+
+                                    h3 {
+                                        font-size: 16px;
+                                        font-weight: 600;
+                                        justify-content: center;
+                                    }
+
+                                    p {
+                                        font-size: 14px;
+                                        text-align: center;
+                                    }
+
+                                }
+
+                            }
+
+
+                        }
+
+                        #minterS7 {
+                            #minterS7L {
+                                #imgDminterS7 {
+                                    // background-color: rgb(47, 255, 0);
+                                    justify-content: center;
+
+                                }
+
+                                span {
+                                    justify-content: center;
+                                }
+
+                                #imgsS7 {
+
+                                    // background-color: rgb(223, 35, 217);
+                                    .interImgS7 {
+                                        height: 40%;
+
+                                    }
+                                }
+
+                            }
+                        }
+
+                        #binterS7 {
+                            #lDivFooter {
+                                justify-content: center;
+                            }
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        // height: 100%;
+
+        .contaner {
+            #section1 {
+                margin-top: 10vh;
+                height: 80vh;
+
+            }
+
+            #section2 {
+                margin-bottom: 40px;
+
+                #mainDS2 {
+                    h1 {
+                        justify-content: center;
+                    }
+
+                    #tDMainDS2 {
+                        div {
+                            height: 50%;
+                        }
+                    }
+
+                }
+
+            }
+
+            #section3 {
+
+                #mainDS3 {
+                    flex-direction: column;
+                    // background-color: chartreuse;
+
+                    #tmainDS3 {
+                        height: 50%;
+                        padding-top: 20px;
+
+                        img {
+                            height: 100%;
+                            // width: 35%;
+                            padding: 0;
+                        }
+                    }
+
+                    #mmainDS3 {
+                        height: 50%;
+
+                        h2 {
+                            height: 20%;
+                            font-size: 30px;
+
+                        }
+
+                        p {
+                            height: 20%;
+                            font-size: 20px;
+
+                        }
+
+                        .intermmainDS3 {
+                            height: 20%;
+
+                            span {
+                                font-size: 18px;
+
+                            }
+
+                        }
+
+                        .interSpan {
+                            height: 20%;
+                            font-size: 16px;
+                        }
+                    }
+
+                    // #bmainDS3 {
+                    //     // display: none;
+                    // }
+                }
+
+            }
+
+            #section7 {
+                // height: 100vh;
+
+                #mainnnS7 {
+                    height: 95%;
+
+                    #interS7 {
+                        // background-color: rgb(56, 165, 42);
+
+                        #tinterS7 {
+                            .interrrrTS7 {
+                                flex-direction: column;
+
+
+                                #imgDiv {
+                                    height: 60%;
+                                    // background-color: rgb(43, 226, 58);
+
+                                }
+
+                                #cart7 {
+                                    height: 40%;
+                                    // background-color: rgb(199, 51, 51);
+                                    justify-content: flex-start;
+                                    align-items: flex-start;
+                                    padding: 0 10px;
+
+                                    h3 {
+                                        font-size: 12px;
+                                        // font-weight: 600;
+                                        justify-content: center;
+                                    }
+
+                                    p {
+                                        font-size: 10px;
+                                        text-align: center;
+                                    }
+
+                                }
+
+                            }
+
+
+                        }
+
+                        #minterS7 {
+                            #minterS7L {
+                                #imgDminterS7 {
+                                    // background-color: blue;
+                                    justify-content: center;
+
+                                }
+
+                                span {
+                                    justify-content: center;
+                                }
+
+                                #imgsS7 {
+
+                                    // background-color: rgb(44, 153, 44);
+                                    .interImgS7 {
+                                        height: 40%;
+
+                                        img {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+
+                        #binterS7 {
+                            #lDivFooter {
+                                justify-content: center;
+                            }
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+    }
+}

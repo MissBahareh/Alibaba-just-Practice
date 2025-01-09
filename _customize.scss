@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Vazir;
+    src: url(font/Vazir.eot);
+    src: url(font/Vazir.ttf);
+    src: url(font/Vazir.woff);
+    src: url(font/Vazir.woff2);
+}
+
+* {
+    ::-webkit-scrollbar {
+        width: 5px;
+        background-color: #cedbe8;
+        display: none;
+    }
+
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0px -1px 13px rgb(246, 142, 132);
+        border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgb(249, 52, 35);
+        border-radius: 5px;
+    }
+
+    font-family: Vazir;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    a {
+        display: flex;
+        color: black;
+        text-decoration: none;
+    }
+}
